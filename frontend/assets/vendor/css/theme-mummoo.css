@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.root{
+    --bs-nav-bold: rgba(41, 39, 51, 0.9);
+    --bs-nav-font: rgba(41, 39, 51, 0.9);
+}
 .layout-navbar-fixed .layout-wrapper:not(.layout-horizontal) .layout-page:before {
     content: "";
     width: 100%;
@@ -748,7 +752,7 @@ html:not(.layout-menu-collapsed) .bg-menu-theme .menu-inner .menu-item .menu-lin
     color: rgba(250, 175, 158, 0.9);
 }
 .bg-menu-theme .menu-inner > .menu-item.active > .menu-link {
-    color: rgba(93, 42, 31, 0.9);
+    color: var(--b);
     background-color: rgba(255, 227, 221, 0.9)
     !important;
 }
